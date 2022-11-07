@@ -1,4 +1,2 @@
 /.vscode
-/blue_rov_cmd_velocity_ros_subscriber.cs.meta
-/bluerov_velocity_control.cs.meta
-/camera_capturer.cs.meta
+*.cs.meta
