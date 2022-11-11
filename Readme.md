@@ -31,6 +31,8 @@ rosrun rviz rviz
 
 Now using the second terminal, you can control the ROV and see all the changes in real time, enjoy!
 
+If you wnat ti test cisualization package inside unity just choose this topic 'camera1/image/compressed' from the topics seen in the visualization package menue next tp ROS_TCP_ENDPOINT in upper left corner of scene view.
+
 Find below video showing results using keyboard teleoperation and publishing images and showing them on Rviz
 
 
