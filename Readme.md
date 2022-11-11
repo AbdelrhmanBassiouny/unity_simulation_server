@@ -1,13 +1,17 @@
 # Unity_Simulation_Server
 
 
-These are the scripts that should be inside the Scripts folder in the Assets in the unity project.
+This is the Assets folder that should be inside the unity project.
+
+Most of the work is in the scripts folder.
 
 Also you will find rviz configuration for easy usage with rviz.
 
+For the concrete texture, I used the following unity package found on the asset store, you can find it [here](https://assetstore.unity.com/packages/2d/textures-materials/concrete/yughues-free-concrete-materials-12951). Put it inside the assets folder (i.e. in the root of this package)
+
 Note that Image_View package was required to show the jpeg compressed image that was published from unity.
 
-First run the unity simulation, and tick the publish box in the camera properties, then execute the following commands:
+First run the unity simulation, and **tick the publish box** in the camera properties of camera_link_1 inside the base_link of Bluerov2, then execute the following commands:
 
 ```
 roslaunch ros_tcp_endpoint endpoint.launch
